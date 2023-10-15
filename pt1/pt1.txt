@@ -1,0 +1,23 @@
+- Para el color del <body> he apostado por
+el color #bbf7d0, un color agradable y suave para la 
+vista. Un color fuerte y chillón para la web 
+podría ser molesto para el usuario a medida que pasa 
+el tiempo.
+
+- Para resaltar los puntos más importantes de la web he 
+cogido el color complementario del <body>, el #f7bbe2. Otro color
+suave y cremoso para la vista pero que resalta en la web.
+
+- Para el <nav> y el <footer> he cogido 
+el color #f7eebb, el color triadico del #bbf7d0 y complementario 
+de #f7bbe2. Me parece un color que no estropea la 
+armonia de colores y además encapsula el contenido importante de 
+la web, como los dos <section> y el <aside>, siendo 
+así muy intuitivo.
+
+- El <section> y el <aside> los de dejado de color 
+blanco. Me parece el mejor color para leer cualquier contenido 
+extenso de la web, junto con la letra de color negro.
+
+- La tipografía he cogido una moderna y sencilla. Es la 
+que utiliza el framework Tailwind CSS.
