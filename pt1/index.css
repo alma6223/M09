@@ -1,5 +1,6 @@
 body {
-    background-color: grey;
+    background-color: #bbf7d0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header img {
@@ -7,17 +8,23 @@ header img {
     height: 200px;
     object-fit: cover;
     border-radius: 6px;
+    margin-top: 20px;
 }
 
 nav {
-    background-color: white;
+    background-color: #F7EEBB;
     border-radius: 6px;
     margin-top: 20px;
-    padding: 20px;
+    height: 41px;
 }
 
 a {
     text-decoration: none;
+    margin: 0 20px;
+}
+
+nav img {
+    vertical-align: middle;
 }
 
 section {
@@ -25,6 +32,7 @@ section {
     display: flex;
     padding: 20px;
     border-radius: 6px;
+    line-height: 2;
 }
 
 #content {
@@ -45,7 +53,6 @@ section {
 }
 
 article img {
-    max-width: 100%;
     width: 200px;
     padding: 20px;
 }
@@ -55,16 +62,18 @@ aside {
     padding: 20px;
     border-radius: 6px;
     margin: auto;
+    text-align: center;
 }
 
 aside img {
-    max-width: 100%;
     width: 200px;
 }
 
 aside p {
-    background-color: grey;
+    background-color: #F7BBE2;
     width: 200px;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 footer {
@@ -73,4 +82,25 @@ footer {
     padding: 20px;
     text-align: center;
     border-radius: 6px;
+    background-color: #F7EEBB;
+}
+
+#events {
+    background-color: #F7BBE2;    ;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#oferta1 {
+    position: absolute;
+    top: 340px;
+    right: 250px;
+    width: 90px;
+}
+
+#oferta2 {
+    position: absolute;
+    top: 1040px;
+    right: 250px;
+    width: 90px;
 }
